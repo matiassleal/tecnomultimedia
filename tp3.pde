@@ -1,10 +1,12 @@
 //Matias Leal #81728/2
 //tecnologia multimedial 1
+// https://youtu.be/YZ82ZaUidZU
 
 void setup() {
-  size(800,700);
+  size(800,700); 
 
 }
+
 void draw() {
   background(#5763E3);
   translate(width/2,height/2);
@@ -20,5 +22,6 @@ void draw() {
   }
 }
 void keyPressed() {
-  redraw();
+noLoop();
+
 }
